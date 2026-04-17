@@ -1,10 +1,10 @@
 import os
 import requests
 
-save_folder = "downloads"
+save_folder = "downloads-pt2"
 os.makedirs(save_folder, exist_ok=True)
 
-with open("vehicle_images_input.txt") as f:
+with open("vehicle_images_input_part2.txt") as f:
     for url in f:
         url = url.strip()
         if not url:
